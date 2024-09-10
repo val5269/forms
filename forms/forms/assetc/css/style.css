@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.login{
+    background: url("../img/Log\ In\ -\ 5.png") no-repeat bottom / cover;
+    height: 100vh;
+}
+
+.login__wrap{
+    max-width: 656px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 187px;
+}
+
+.login__logo-text{
+    color: #474747;
+    font-size: 33px;
+    font-weight: 900;
+}
+
+.login__logobox{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+.login__form{
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 24px 24px 88px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login__title{
+    color: #323233;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.login__texts{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.login__text{
+    color:#5A6175;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login__link{
+    color: #FF6700;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    align-self: start;
+}
+.login__input{
+    padding: 16px 22px;
+    border-radius: 8px;
+    border-color: #DAD7D5;
+    margin-bottom: 24px;
+    width: 100%;
+    position: relative;
+}
+
+.login__input::placeholder{
+    color: #19191A;
+}
+.login__btn{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #0C6FF9;
+    border-radius: 24px;
+    border: none;
+    width: 100%;
+    margin: 23px 0 16px 0;
+}
+
+.login__icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login__icon-box{
+    background-color: #000;
+    padding: 8px 41.5px;
+    border-radius: 24px;
+}
+
+.login__icon-box_blue{
+    background-color: #5A6175;
+    padding: 8px 41.5px;
+    border-radius: 24px;
+}
+
+.login__icon-box_green{
+    background-color: #2EBD59;
+    padding: 8px 41.5px;
+    border-radius: 24px;
+}
+
+.login__icon-box_gray{
+    background-color: #FAF6F4;
+    padding: 8px 41.5px;
+    border-radius: 24px;
+}
+
+.logo9::after{
+    content: '';
+    background: url('../img/Vector.svg') no-repeat center center / cover;
+    width: 25.5px;
+    height: 13.5px;
+    position: absolute;
+    
+}
